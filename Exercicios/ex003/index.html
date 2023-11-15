@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens na tela</title>
+</head>
+<body>
+    <h1>Vamos aprender a como colocar imagens na pagina.</h1>
+    <h2>Imagem grande demais?</h2>
+    <p>Normalmente podemos diminuir com o CSS o tamanho que a imagem irá aparecer na tela, porém, isso não fara com que o peso do arquivo diminua, então devemos diminuir nós mesmos utilizando um Photoshop. Normalmente 250x250px já está perfeito.</p>
+    <p>Aqui nós temos 2 exemplos de imagem, uma está em 1200x1200 e outra 250x250. Ambas possuem seu peso distinto uma da outra. A maior é pesada.</p>
+    <img src="logoCSSfull.png" alt="Logo do CSS">
+    <img src="LogoCSS250.png" alt="Logo do CSS 250x250">
+    <h2>Códigos para colocar imagem no site:</h2>
+    <p>Esse é o seguinte código para colocar a imagem na pagina:</p>
+    <pre><code>
+    img src="logoCSSfull.png" alt="Logo do CSS"
+    </code></pre>
+    <p>Vale destacar aqui, que essa imagem que está sendo carregada está junto ao arquivo index.html dos site, a outra maneira de colocar imagem só que em outra pasta.</p>
+    <h2>Colocando imagem de outra pasta:</h2>
+    <p>Literalmente é só escrever antes do nome da imagem, a pasta onde está guardada a foto. Exemplo: <strong>arquivo/nome da imagem.formato</strong></p>
+    <pre><code>
+    &lt;img src="imagens/logoCSSfull.png" alt="Logo do CSS"&gt;
+    </code></pre>
+    <img src="imagens/LogoHTML full.png" alt="Logo HTML">
+    <img src="imagens/LogoHTML 250.png" alt="Logo HTML">
+    <h2>Colocando imagens externas</h2>
+    <p>ok, aprendemos a colocar imagens de duas maneiras, mas existe outra também, usando imagens extarnas, de outro servidor. Para isso devemos pegar a URL da imagem completa e colocar no atributo "SRC"</p>
+    <img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-2038874-1720087.png" alt="Logo da javascript">
+</html>

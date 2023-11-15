@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+Header { 
+ background-color: rgba(0, 0, 0, 0.548);
+ color: white;
+ border: 1px solid white;
+ margin-bottom: 20px;
+}
+nav {
+    background-color: rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+header > h1 {
+    text-align: center;
+}
+main {
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
+}
+footer {
+    padding: 10px;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+footer > p {
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

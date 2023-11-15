@@ -1,0 +1,32 @@
+.diva{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    
+}
+.diva h1 {
+   text-align: center; font-size: 50px;
+}
+.divb {
+    background-color: black;
+}
+.div3 {
+    
+}
+body {
+    
+}
+.div1, .div2 {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    margin: 40px;
+}
+.h1n1 {
+
+}
+* {
+
+}

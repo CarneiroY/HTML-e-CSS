@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(177, 212, 177);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header {
+    background-image: linear-gradient(to top, rgb(44, 78, 44), rgb(109, 197, 138));
+    height: 100%;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+header > h1 {
+    text-align: center;
+    font-size: 27px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.548);
+    color: white;
+}
+.subtitulo {
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 26px;
+    padding: 0px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 15px;
+}
+a:hover {
+    color: rgb(155, 155, 155);
+}
+main {
+    margin: 0% 15% 0% 15%;
+    padding-top: 15px;
+}
+.imagem {
+    max-width: 100%; /* A imagem não deve exceder a largura da caixa */
+    max-height: 100%; /* A imagem não deve exceder a altura da caixa */
+    margin: auto;
+    display: flex;
+}
+main > h1 {
+    padding: 0px 20px 0px 20px;
+    margin: 0px;
+    margin-top: 7px;
+    color: rgb(0, 88, 59);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
+}
+main > h2 {
+    margin: 0px;
+    background-image: linear-gradient(to right, rgb(215, 245, 215), rgb(255, 255, 255));
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 8px;
+    color: rgb(0, 88, 59);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
+}
+p {
+    text-indent: 20px;
+    text-align: justify;
+    padding: 20px;
+    margin: 0px;
+}
+.palavra-verde {
+    color: rgb(0, 83, 0);
+}
+iframe {
+    max-width: 100%; /* A imagem não deve exceder a largura da caixa */
+    max-height: %; /* A imagem não deve exceder a altura da caixa */
+    margin: auto;
+    display: flex;
+}
+aside {
+    margin: 2% 3% 0% 3%;
+    background-color: rgb(177, 212, 177);
+    border-radius: 10px;
+}
+aside > h3 {
+    font-size: 18px;
+    margin: 0px;
+    background-color: rgb(42, 161, 122);
+    color: white;
+    padding: 10px 0px 10px 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.582);
+    border-radius: 10px 10px 0px 0px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 50px;
+}
+li {
+
+}
+li::before {
+    content: "➤";
+    margin-right: 5px;
+}
+footer {
+    margin-top: 30px;
+    background-color: rgb(44, 78, 44);
+    color: white;
+}
+footer > p {
+    text-align: right;
+    margin-right: 10px;
+    
+}

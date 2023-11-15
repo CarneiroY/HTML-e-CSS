@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/300x300.jpg" type="image/jpg"> 
+        <source media="(max-width: 1050px)" srcset="images/700x700.jpg" type="image/jpg">
+        <img src="images/1000x1000.jpg" alt="imagem flexivel">
+    </picture>
+    <h2>Adicionando áudios</h2>
+    <p>Para colocar audio no site utilizaremos a tag &lt;audio&gt;&lt;/audio&gt;</p>
+    <audio src="media/ElevenLabs_2023-08-28T20_43_40_Clyde_pre_s50_sb75_b_m1.mp3" controls autoplay loop></audio>
+    <audio preload="metadata" controls>
+        <source src="media/ElevenLabs_2023-08-28T20_43_40_Clyde_pre_s50_sb75_b_m1.mp3" type="audio/mp3">
+        <source src="media/ElevenLabs_2023-08-28T20_43_40_Clyde_pre_s50_sb75_b_m1.ogg" type="audio/ogg">
+        <source src="media/ElevenLabs_2023-08-28T20_43_40_Clyde_pre_s50_sb75_b_m1.mp3" type="audio/wav">
+    </audio>
+    <h2>Adicionando Vídeos</h2>
+    <video width="600" poster="images/700x700.jpg" controls>
+        <source src="media/ébom.webm" type="webm">
+        <source src="media/ébom.mp4" type="video/mp4">
+        <source src="media/ébom.ogg" type="ogg">
+        <p>infelizmente não foi possivel carregar o vídeo.</p>
+    </video>
+</body>
+</html>

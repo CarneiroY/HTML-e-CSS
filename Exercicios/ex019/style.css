@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(imagem/natureza-bonita-mostra-em-silhueta-imagem-64743177.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#tituloprincipal {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #703112;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.158) ;
+}
+.background-white {
+    background-color: white;
+}
+h1{
+    color: #125971;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.158) ;
+}
+.basico {
+    color: rgba(0, 128, 0, 0.445);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151) ;
+}
+.intermediario {
+    color: rgba(255, 115, 0, 0.445);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.158) ;
+}
+.avancado {
+    color: rgba(255, 0, 0, 0.445);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.397) ;
+}
+main {
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+}
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
