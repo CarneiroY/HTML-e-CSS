@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+
+body {
+    background-image: url('../images/wallpaper001.jpg');
+    background-size: cver;
+}
+
+div.quadrado {
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+div#q1 {
+    background-color: aqua;
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, rgb(9, 9, 46), rgb(4, 4, 103),
+    blue);
+}
+
+div#q3 {
+    background-image: url("../images/pattern001.png");
+    background-size: cover; /*concerta a imagem dentro da caixa */
+}
+
+div#q4 {
+    background-image: url("../images/pattern003.png");
+    background-size: cover; 
+}
+
