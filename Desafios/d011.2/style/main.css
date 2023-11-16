@@ -78,6 +78,11 @@ nav > a {
     font-family: var(--font-padrao);
 }
 
+a:hover { 
+    background-color: var(--cor3);
+    padding: 10px;
+}
+
 h1 {
     font-family: var(--font-android);
     color: var(--cor5);
