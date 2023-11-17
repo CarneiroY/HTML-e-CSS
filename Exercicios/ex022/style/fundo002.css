@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*div.bloco {
+    background-image: url("../images/wallpaper003.jpg");
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px
+}
+
+div#q1 {
+    background-position: left top;
+}
+
+div#q2 {
+    background-position: left center;
+}
+
+div#q3 {
+    background-position: right bottom;
+}
+
+div#q4 {
+    background-position: center center;
+} */
+
+/*body {
+    background-image: url("../images/pattern003.png");
+    background-size: 50%;
+    background-size: contain;
+    background-repeat: ;
+    background-attachment: fixed;
+}
+
+div.caixa {
+    background-image: url("../images/wallpaper003.jpg");
+    height: 1100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.caixa2 {
+    background-image: url("../images/wallpaper003.jpg");
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+body {
+    background-image: url("../images/pattern001.png");
+    background-size: cover;
+}
+
+header {
+    background-color: white;
+    height: 50px;
+    background-image: url("../images/pattern002.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 40px;
+}
+
+nav {
+    text-align: right;
+    padding-top: 15px;
+    margin-right: 20px;
+
+}
+
+nav > a {
+    margin: 0px 20px 0px 0px;
+}
+
+

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#container {
+    position: relative;
+    height: 96vh;
+    margin: 10px;
+    background-color: rgb(8, 8, 79);
+    background-image: url("../images/target001.png");
+    background-size: 100% 100%;
+    
+}
+
+#conteudo {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(150, 136, 29);
+    background-image: url("../images/target001.png");
+    background-size: 100% 100%;
+
+    left: 250px;
+    top: 200px;
+}
