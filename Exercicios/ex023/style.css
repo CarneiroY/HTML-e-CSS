@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+table {
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+#number {
+    vertical-align: bottom;
+}
