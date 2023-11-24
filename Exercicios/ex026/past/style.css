@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+#div1{
+    background-color: lightblue; 
+    text-align: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+#div2{
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block; /*Essa propriedade coloca tudo na mesma linha. muito importante */
+}
+#div3{
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid black;  /*Essa propriedade serve para ccolocar uma borda. Mas também precisamos colocar os valores dessa propriedade. No valor 1 nós colocamos a largura dessa bora, no segundo valor nós colocamos o tipo dessa borda e no terceiro valor nós colocamos a cor da borda.*/
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+#div1:hover {
+    background-color: rgba(0, 0, 0, 0.178);
+}
+#div2:hover {
+    background-color: rgba(0, 0, 0, 0.185);
+}
+#div3:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div4:hover > .p1 {
+    color: blue;
+    display: block;
+}
+.link-canal-youtube {
+    color: blue;
+}
+.link-canal-youtube:hover {
+    color:rgb(0, 0, 99)
+}
+.oculto {
+    background-color: lightblue; 
+    text-align: center;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+.p2 {
+    display: none;
+}
+.p2:hover {
+    display: block;
+}
