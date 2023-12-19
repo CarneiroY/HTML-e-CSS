@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste De Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="iusuario">Usuário: </label>
+            <input type="text" name="usuario" id="iusuario" required minlength="4" maxlength="72" placeholder="seu nome "> <!--O "required" serve para que o campo seja obrigatório para responder antes de enviar o formulário. -->
+        </p>
+        <p>
+            <label for="ipassaword">Senha: </label>
+            <input type="password" name="passaword" id="ipassaword" required minlength="8" maxlength="128" placeholder="sua senha">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"> <!-- o input do tipo RESET serve para limpar toda área de dados-->
+        </p>
+        <br>
+        <p>
+            <label for="idata">Ano de nascimento: </label>
+            <input type="date" name="data" id="idata">
+        </p>
+        <br>
+        <p>
+            <label for="isenha">Digite your senha: </label>
+            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="128" placeholder="digite uma senha">
+            
+        </p>
+        <br>
+        <p>
+            <label for="iarquivo">Selecione um arquivo: </label>
+            <input type="file" name="arquivo" id="iarquivo" required >
+            
+        </p>
+        <br>
+        <p>
+            <label for="iemail">Digite seu melhor email: </label>
+            <input type="email" name="email" id="iemail">
+            
+        </p>
+        <br>
+        <p>
+            <label for="icheckbox1">Check 1</label>
+            <input type="checkbox" name="checkbox" id="icheckbox1" value="Check 1">
+            <label for="icheckbox2">Check 2</label>
+            <input type="checkbox" name="checkbox" id="icheckbox2" value="Check 2">
+            <label for="icheckbox3">Check 3</label>
+            <input type="checkbox" name="checkbox" id="icheckbox3" value="Check 2">
+            
+        </p>
+        <br>
+        <p>
+            <label for="imarcar1">Não?</label>
+            <input type="radio" name="marcar" id="imarcar1">
+            <label for="imarcar2">Sim?</label>
+            <input type="radio" name="marcar" id="imarcar2">
+            <label for="imarcar3">Talvez?</label>
+            <input type="radio" name="marcar" id="imarcar3">
+        </p>
+        <br>
+        <p>
+            <label for="iproblema">Informe seu problema aqui: </label>
+            <textarea name="problema" id="iproblema" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+</body>
+</html>
